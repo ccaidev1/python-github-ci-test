@@ -6,4 +6,4 @@ class Client(object):
     self.keyId = key_id
 
   def get_order_status(self, **params):
-      return "Waiting"
+      return "Waiting..."
